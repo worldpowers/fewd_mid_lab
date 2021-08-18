@@ -17,3 +17,366 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
+/* PHONE VIEW */
+
+.rover-button-rover-cta-mobile{
+  display: none;
+}
+header .rover-header-right-mobile{
+  display: none;
+}
+
+@media (max-width: 500px){
+  header .rover-header-right-mobile{
+      display: block;
+      margin-right: 20px;
+  }
+  header a{
+      display:none;
+  }
+
+  
+  .rover-button-rover-cta-mobile{
+    display: block;
+  }
+
+  .rover-button-rover-cta-mobile{
+    font-family: 'Nunito', Arial, sans-serif;
+    color: white;
+    display: inline-block;
+    background-color: #14a96d;
+    padding: 1rem 3.5rem;
+    text-decoration : none;
+    margin-top: 2px;
+    width: 220px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+  }
+  .rover-hero-container h1{
+    display: none;
+  }
+
+ 
+
+  section .rover-button-rover-cta{
+    display: none;
+  }
+
+header .rover-header-container{
+  margin-bottom: 8000px;
+}
+
+section .rover-hero-container{
+  background-color: white;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+/* CSS */
+.flex{
+  display:flex;
+}
+
+.rover-header-container{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 90px;
+}
+
+.rover-header-left {
+  margin-bottom: 0px;
+ margin-left:-390px;
+ margin-top: 0x;
+}
+
+.rover-header-right {
+  margin-right: 20px;
+  margin-top: -1px;
+  margin-left: 100px;
+  
+}
+
+section a{
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  
+}
+
+.img{
+  float: left;
+  padding: 18px;
+  margin-left: 55px;
+}
+
+.rover-hero-container{
+  position: relative;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  height: 660px;
+  margin-top: -55px;
+}
+
+.rover-button-rover-cta{
+  font-family: 'Nunito', Arial, sans-serif;
+  color: white;
+  display: inline-block;
+  background-color: #14a96d;
+  padding: 1rem 3.5rem;
+  text-decoration : none;
+  margin-top: 2px;
+  width: 220px;
+  text-align: center;
+  margin-left: 100px;
+  font-size: 15px;
+  border-radius: 5px;
+  
+}
+
+
+
+.rover-hero-container h1{
+  font-size: 60px;
+  margin-left: 100px;
+ padding-top: 160px;
+  
+}
+
+.rover-hero-container p{
+  margin-left: 100px;
+  font-size: 40px;
+  margin-top: -25px;
+}
+
+.rover-middle-section h2{
+  text-align:center;
+  margin-top: 50px;
+}
+
+.grid{
+  display: grid;
+}
+
+.rover-two-boxes-container{
+  margin-top: 50px;
+  grid-template-columns: 600px 420px;
+  gap:40px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+}
+
+.rover-facts-container{
+  grid-template-columns: 200px 300px;
+  
+  gap:40px;
+  margin-left: 100px;
+  
+}
+
+.rover-fact-indiv h3, p{
+  margin-left: 90px;
+  margin-top: -55px;
+  margin-bottom: 40px;
+}
+
+.rover-fact-indiv p{
+  margin-top: -30px;
+}
+
+.rover-cta-box{
+  margin-top: 40px;
+  background-color: white;
+  height: 360px;
+  border-radius:5px;
+  border: 1px solid #dccece;
+  width: 500px;
+  margin-left: 83px;
+}
+
+.rover-cta-header{
+  background-color: #ecebeb;
+  height: 70px;
+}
+.rover-cta-header p{
+  margin-top: -29px;
+  margin-left: 96px;
+  font-size: 18px;
+}
+
+.rover-cta-header img{
+  margin-top: 20px;
+  margin-left: 45px;
+  
+}
+
+.rover-cta-bottom-container{
+  margin-top: 30px;
+}
+.rover-cta-bottom-container .rover-facts li {
+ margin-left: 20px;
+ padding-bottom: 20px;
+ font-size: 18px;
+}
+
+.rover-protections{
+  margin-top: 45px;
+  margin-left: 10px;
+  text-align: center;
+  
+}
+.rover-cta{
+  font-family: 'Nunito', Arial, sans-serif;
+  color: white;
+  display: inline-block;
+  background-color: #14a96d;
+  padding: 1rem 5.5rem;
+  text-decoration : none;
+  margin-top: 2px;
+  width: 220px;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.rover-action-shot{
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 1135px;  
+  position: relative;
+  background-image: url("../img/lady-with-her-dogs.jpg");
+  background-size: cover;
+  height: 515px;
+  margin-top: 55px;
+  display: inline-block;
+
+}
+
+.rover-action-quote-container{
+  background-color: #ecebeb;
+  width: 450px;
+  height: 380px;
+  margin-left:120px;
+  margin-top: -65px;
+  border-radius: 5px;
+}
+
+.rover-quote {
+  margin-bottom: 80px;
+  margin-left: 30px;
+  padding-top: 50px;
+  font-size: 37px;
+   font-weight: bold;
+   font-weight: 1000;
+  
+}
+
+
+.rover-quote2 {
+  margin-left:30px;
+  margin-top: 20px;
+  font-size:20px;
+}
+
+
+.rover-123-container{
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.rover-123-container-title{
+  margin-bottom: 50px;
+}
+.rover-123-item-container{
+  display: flex;
+  justify-content:center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.rover-123-item1{
+  width: 400px;
+}
+
+.rover-123-item1 img{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.rover-123-item1 h3{
+  margin-left: -15px;
+  padding-top: 10px;
+}
+
+.rover-123-item1 p{
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+
+
+.rover-123-item2{
+  width: 400px;
+}
+
+.rover-123-item2 img{
+  margin-left: -1px;
+  margin-top: 14px;
+}
+
+.rover-123-item2 h3{
+  margin-left: -1px;
+  padding-top: 5px;
+}
+
+.rover-123-item2 p{
+  margin-left: 5px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.rover-123-item3{
+  width: 400px;
+}
+
+.rover-123-item3 img{
+  margin-left: -1px;
+  margin-top: 27px;
+}
+
+.rover-123-item3 h3{
+  margin-left: -1px;
+  padding-top: 10px;
+}
+
+.rover-123-item3 p{
+  margin-left: 5px;
+  text-align: center;
+  margin-top: 22px;
+
+}
+
+
+
+
+
+
