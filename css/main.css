@@ -18,6 +18,10 @@ body {
 }
 
 /* PHONE VIEW */
+.rover-hero-container1{
+  display: none;
+}
+
 
 .rover-button-rover-cta-mobile{
   display: none;
@@ -26,11 +30,23 @@ header .rover-header-right-mobile{
   display: none;
 }
 
+.rover-mobile-hero-container{
+  display:none;
+}
+
 @media (max-width: 500px){
   header .rover-header-right-mobile{
       display: block;
-      margin-right: 20px;
+      margin-right: 100px;
+      margin-top: 1px;
+      
+      
   }
+  header .rover-header-right-mobile img{
+    height: 15px;
+    
+  }
+ 
   header a{
       display:none;
   }
@@ -45,33 +61,150 @@ header .rover-header-right-mobile{
     color: white;
     display: inline-block;
     background-color: #14a96d;
-    padding: 1rem 3.5rem;
+    padding: 0.7rem 3.5rem;
     text-decoration : none;
-    margin-top: 2px;
-    width: 220px;
+    margin-top: -20px;
+    width: 240px;
     text-align: center;
-    margin-left: 100px;
-    font-size: 15px;
+    margin-left: 10px;
+    font-size: 10px;
     border-radius: 5px;
   }
-  .rover-hero-container h1{
-    display: none;
-  }
-
- 
-
+  
   section .rover-button-rover-cta{
     display: none;
   }
 
-header .rover-header-container{
-  margin-bottom: 8000px;
+  .rover-hero-container{
+    display: none;
+  }
+
+
+  .rover-header-container{
+    
+    margin-bottom: 30px;
+  }
+
+  .rover-header-container img{
+    margin-left: -65px;
+    margin-bottom: 60px;
+    width:75px;
+    height:30px;
+  }
+  .rover-hero-container1{
+    padding-top: 100px;
+    margin-top: 100px;
+    position: relative;
+  background-size: cover;
+  height: 60px;
+  margin-top: -85px;
+    background-color:white;
+    display: block;
+
+  }
+
+  .rover-hero-container1 p{
+    font-size:14px;
+    margin-left:11px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  
+  }
+  .rover-middle-section h2{
+    float: left;
+    font-size: 14px;
+    margin-left: 100px;
+  }
+  .rover-mobile-hero-container{
+    display:block;
+    position: absolute;
+    height: 180px;
+    width: 360px;
+    margin-bottom: 500px;
+  }
+.rover-two-boxes-container{ 
+    width: 1250px;
+  }
+
+  section .rover-facts-container{
+   
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+section .rover-facts-container img{
+    width: 55px;
+    height: 55px;
+  }
+
+
+  section .rover-facts-container h3{
+    font-size:13px;
+    margin-top:-50px;
+    margin-left: 60px;
+  }
+
+  section .rover-facts-container p{
+    font-size:13px;
+    margin-left: 60px;
+  }
+
+  section .rover-cta-box{
+    
+    margin-top: 580px;
+    margin-left: -630px;
+    width: 350px;
+    height: 290px;
+  }
+  .rover-cta-container{
+    width: 350px;
+    
+    
+  }
+header.rover-cta-header{
+  width: 350px;
+  height: 50px;
 }
 
-section .rover-hero-container{
-  background-color: white;
+header.rover-cta-header img{
+  height: 22px;
+  width:22px;
+  margin-left: 41px;
+  margin-top: 10px;
 }
-  
+header.rover-cta-header p{
+  font-size: 12px;
+  margin-top: -20px;
+  margin-left: 70px;
+}
+
+
+div .rover-cta-bottom-container .rover-facts li{
+  font-size: 12px;
+}
+
+div .rover-cta{
+  font-family: 'Nunito', Arial, sans-serif;
+  color: white;
+  display: inline-block;
+  background-color: blue;
+  padding: 1rem 3.5rem;
+  text-decoration : none;
+  margin-top: 2px;
+  width: 220px;
+  text-align: center;
+  margin-left: 8px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+section .rover-protect p{
+  font-size: 10px;
+  margin-top: 27px;
+  margin-left: -10px;
+}
+
+
+
 }
 
 
